@@ -1,0 +1,141 @@
+
+.table {
+    padding: 20px ;
+    max-height: 60vh;
+    overflow: auto;
+    width: auto;
+    border: 2px solid var(--light-red) ;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+caption{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 20px;
+}
+thead{
+    display: flex;
+}
+
+th{
+    padding: 10px 10px ;
+    min-width: 180px;
+    background-color: #636363;
+    color: var(--gold);
+    color: white;
+    margin: 0 10px;
+}
+
+
+tr{
+    border: 1px solid gray;
+    background-color: #ececec;
+}
+tr:nth-child(2n){
+    background-color: #d4d4d4;
+}
+tr:hover{
+    box-shadow:  0 0 5px var(--bright-yellow);
+    border: 1px solid var(--light-red) ;
+}
+td{
+    min-width: 200px;
+
+}
+th:hover{
+    box-shadow:  none;
+    border: none;
+}
+input{
+    outline: none;
+    background-color: white;
+    margin: 10px;
+    height: 20px;
+}
+input::placeholder{
+    color: #616161;
+}
+input:read-only{
+    background-color: transparent;
+    color: var(--bright-yellow);
+}
+input:read-only::placeholder{
+    color: #616161;
+}
+.table-button{
+    min-width: 170px;
+    margin: 5px 10px;
+    padding: 10px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.preview{
+    width: 50px;
+}
+.coverBlock{
+    display: flex;
+    justify-content: center;
+    width: 177px;
+}
+.zoom{
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    background: url("../img/MagnifyingGlassPlus.png") no-repeat center center;
+}
+.deleted{
+    background-color: #fda6a6;
+    box-shadow: inset 0 0 20px 5px #f80101;
+}
+.deleted:hover{
+    background-color: #b35d5d;
+    box-shadow: inset 0 0 20px 5px #f80101;
+}
+.button-del {
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    background: url("../img/XCircle.png") no-repeat center center;
+}
+.button-send {
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    background: url("../img/PencilLine.png") no-repeat center center;
+}
+.button-plus {
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    background: url("../img/PlusCircle.png") no-repeat center center;
+}
+.button-upload{
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    background: url("../img/UploadSimple.png") no-repeat center center;
+}
+.button-pie{
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    background: url("../img/ChartPieSlice.png") no-repeat center center;
+}
+.button-table{
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    background: url("../img/Note.png") no-repeat center center;
+}
+.button-send:hover, .button-del:hover {
+    background-color: transparent;
+}
+.editable{
+    opacity: 0;
+
+}

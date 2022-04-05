@@ -1,0 +1,8 @@
+.errLine{
+    margin: 20px;
+    background-color: var(--light-red) ;
+    color: #720000;
+    border: 2px darkred solid;
+    padding: 20px;
+    transition-duration: 0.4s;
+}

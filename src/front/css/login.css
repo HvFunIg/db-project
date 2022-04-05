@@ -1,0 +1,72 @@
+.loginForm{
+    border: var(--light-red) solid 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    padding: 10px;
+}
+.loginInput{
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+.loginSubmit{
+    border-radius: 10px;
+    padding: 5px 10px;
+    border-radius: 50px;
+    color: var(--light-red) ;
+    background-color: white;
+    height: 40px;
+    max-width: 200px;
+    outline:none;
+    font-size: 20px;
+    transition-duration: 0.4s;
+    border: 2px  solid var(--light-red)  ;
+    margin: 10px;
+    cursor: pointer;
+}
+.loginSubmit:hover{
+    background-color: var(--light-red) ;
+    color:white;
+    border: var(--bright-yellow) 2px solid ;
+}
+.loginH{
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 2px solid #c2c2c2;
+}
+
+
+.startWork{
+    background-color: var(--light-red);
+    color:white;
+    padding: 25px;
+    outline:none;
+    font-size: 20px;
+    transition-duration: 0.4s;
+    border: 2px  solid var(--light-red) ;
+    margin: 5px;
+    text-decoration: none;
+}
+.startWork:hover{
+    color: var(--light-red) ;
+    background-color: white;
+    border: var(--bright-yellow) 2px solid ;
+}
+.startWork:active{
+    background-color: var(--bright-yellow);
+}
+.user {
+    border: 2px solid var(--bright-yellow);
+    padding: 15px;
+    border-radius: 40px;
+    margin: 10px;
+    text-align: center;
+
+}
+.user p {
+    margin: 0;
+}
+.userName {
+    font-weight: bold;
+}
